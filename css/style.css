@@ -1,0 +1,106 @@
+
+
+
+
+/* Layout */
+.ba-container{
+
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+body{
+	background: #48B9B3;
+	padding: 80px;
+	margin: 0;
+}
+.ba-table{
+	background: #fff;
+	width: 900px;
+	height: 900px;
+	margin: 0 auto;
+	padding: 50px;
+
+}
+.ba-board{
+	width: 800px;
+	height: 800px;
+	background: #F3F3F3;
+	position: relative;
+	border: 2px solid #A8A8A8;
+}
+.ba-board > div{
+	width: 12.5%;
+	height: 12.5%;
+	background: #A8A8A8;
+	float: left;
+	margin-left: 12.5%;
+}
+div:nth-child(8n+5){
+	margin-left: 0;
+}
+[class*="check"]{
+	width: 80%;
+	height: 80%;
+	border-radius: 50%;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+.black{
+	background: #3E3C27;
+	box-shadow: 0 3px 0 0 #030B0D;
+}
+.white{
+	background: #FFF;
+	box-shadow: 0 3px 0 0 #030B0D;
+}
+[class*="check"]:hover {
+	margin-top: 3%;
+}
